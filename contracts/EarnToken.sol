@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at Etherscan.io on 2021-02-05
+ *Submitted for verification at Etherscan.io on 2021-03-26
 */
 
 pragma solidity 0.6.6;
@@ -460,8 +460,8 @@ contract EarnYieldEarn is Context, IERC20, Ownable {
     mapping (address => bool) private _isExcluded;
     address[] private _excluded;
     
-    string  private constant _NAME = 'Burn Yield Burn V2';
-    string  private constant _SYMBOL = 'Earn';
+    string  private constant _NAME = 'EARN Network';
+    string  private constant _SYMBOL = 'EARN$';
     uint8   private constant _DECIMALS = 8;
    
     uint256 private constant _MAX = ~uint256(0);
